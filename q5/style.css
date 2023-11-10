@@ -1,0 +1,24 @@
+body {
+    margin: 3em auto;
+    max-width: 700px;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+.button-grid {
+    width: 400px;
+    margin: 3em auto;
+    display: grid;
+    grid-template-columns: repeat(3, auto);
+    grid-gap: 1em;
+}
+
+.button-grid button {
+    padding: 1em;
+    border-radius: 10px;
+    font-size: 0.8rem;
+    cursor: pointer;
+    border: none;
+    background: blueviolet;
+    color: white;
+}

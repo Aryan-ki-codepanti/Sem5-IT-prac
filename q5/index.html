@@ -3,7 +3,30 @@
     <head>
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>Question 4</title>
+        <title>Question 5</title>
+        <link rel="stylesheet" href="style.css" />
     </head>
-    <body></body>
+    <body>
+        <h1>Question 5</h1>
+        <p class="para">
+            This is a paragraph above button grid. Lorem ipsum dolor sit amet
+            consectetur adipisicing elit. Sed aliquam eaque aperiam voluptate
+            odit cupiditate id natus. Veniam, deleniti quas.
+        </p>
+        <div class="button-grid">
+            <button onclick="changeColor('red')">Red</button>
+            <button onclick="changeColor('blue')">Blue</button>
+            <button onclick="changeColor('green')">Green</button>
+            <button onclick="changeFont('10px')">10</button>
+            <button onclick="changeFont('20px')">20</button>
+            <button onclick="changeFont('30px')">30</button>
+            <button onclick="changeFamily('Monospace')">Monospace</button>
+            <button onclick="changeFamily(`'Brush Script MT', cursive`)">
+                Brush Script MT
+            </button>
+            <button onclick="changeFamily('Tahoma, sans-serif')">Tahoma</button>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
 </html>
