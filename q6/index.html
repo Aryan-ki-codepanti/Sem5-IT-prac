@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Question 6</title>
+        <link rel="stylesheet" href="style.css" />
+    </head>
+    <body>
+        <h1>Question 6</h1>
+        <div class="pet-box">
+            <h2>PetCo CBS</h2>
+            <p>Register today for discount on next appointment</p>
+            <form class="pet-form">
+                <input
+                    type="text"
+                    name="pet-name"
+                    id="pet-name"
+                    placeholder="Enter Pet name"
+                />
+                <input
+                    type="text"
+                    name="pet-breed"
+                    id="pet-breed"
+                    placeholder="Enter Pet breed"
+                />
+                <input
+                    type="number"
+                    name="pet-weight"
+                    id="pet-weight"
+                    placeholder="Enter Weight (in Kg)"
+                />
+                <input
+                    type="number"
+                    name="pet-height"
+                    id="pet-height"
+                    placeholder="Enter Height (in Cm)"
+                />
+
+                <textarea
+                    name="pet-like"
+                    id="pet-like"
+                    cols="30"
+                    rows="10"
+                    placeholder="What Does your pet like?? (don't say treats)"
+                ></textarea>
+
+                <button type="submit">Submit</button>
+            </form>
+
+            <p class="error-box"></p>
+        </div>
+
+        <script src="index.js"></script>
+    </body>
+</html>

@@ -1,0 +1,46 @@
+body {
+    margin: 2em auto;
+    padding: 1em 3em;
+    font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+        "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+
+h1 {
+    font-size: 2.5rem;
+    text-align: center;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+.pet-box p:first-of-type {
+    font-size: 1.7rem;
+}
+.pet-box {
+    max-width: 700px;
+    margin: auto;
+}
+
+.pet-form {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+    gap: 0.8em;
+}
+
+.pet-form > * {
+    font-size: 1rem;
+    padding: 0.5em;
+    border-radius: 12px;
+}
+
+.pet-form button {
+    cursor: pointer;
+    padding: 0.7em 2em;
+}
+
+.error-box {
+    font-size: 1.2rem;
+}
