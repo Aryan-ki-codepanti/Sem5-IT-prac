@@ -1,0 +1,25 @@
+{
+    "pets": [
+        {
+            "name": "Benny",
+            "weight": 5,
+            "height": 30,
+            "breed": "Shihtzu",
+            "like": "He likes to play fetch"
+        },
+        {
+            "name": "Olla",
+            "weight": 20,
+            "height": 50,
+            "breed": "Rottweiler",
+            "like": "He likes to bite and eat kids"
+        },
+        {
+            "name": "Cupcake",
+            "weight": 40,
+            "height": 100,
+            "breed": "Pittbull",
+            "like": "He attacks old people"
+        }
+    ]
+}
